@@ -82,7 +82,7 @@ The model is trained on a dataset of FAQs (`dialogs.txt`) using categorical cros
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/InfoAssist-RNN-model.git
+   git clone https://github.com/nishantb66/InfoAssist-RNN-model.git
    cd InfoAssist-RNN-model
    ```
 
