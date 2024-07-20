@@ -131,11 +131,4 @@ The model is trained on a dataset of FAQs (`dialogs.txt`) using categorical cros
    ```
 6. **Create a pull request**.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-Feel free to reach out if you have any questions or need further assistance.
-
-Happy Coding! 🚀
