@@ -1,0 +1,659 @@
+Q: Can I try the software for free before purchasing?
+A: Yes, a 30-day trial version of the software is available on our website.
+
+Q: What are the hardware prerequisites for running the software?
+A: The software requires a minimum of 4GB RAM, 2GHz processor, and 10GB free disk space.
+
+Q: Is the software compatible with mobile devices?
+A: Yes, we have a mobile version of the software available for both iOS and Android.
+
+Q: How do I submit a software bug report?
+A: You can report a bug through the support section on our website or by sending an email to our customer support.
+
+Q: Are there any special offers for non-profit entities?
+A: Yes, we offer a 20% discount for non-profit organizations.
+
+Q: Is it possible to move my software license to a different computer?
+A: Yes, you can transfer your license to another computer by deactivating it on the current machine and reactivating it on the new one.
+
+Q: What forms of payment are accepted by the company?
+A: The company accepts credit cards, debit cards, PayPal, and bank transfers.
+
+Q: Can multiple users work together using the software?
+A: Yes, the software supports multi-user collaboration with features like shared projects and real-time editing.
+
+Q: Is there an option to test the software before I buy it?
+A: Yes, a 30-day trial version of the software is available on our website.
+
+Q: What system specifications are needed to install the software?
+A: The software requires a minimum of 4GB RAM, 2GHz processor, and 10GB free disk space.
+
+Q: Does the software have a mobile app?
+A: Yes, we have a mobile version of the software available for both iOS and Android.
+
+Q: What's the procedure to report issues with the software?
+A: You can report a bug through the support section on our website or by sending an email to our customer support.
+
+Q: Does the company provide any concessions for non-profits?
+A: Yes, we offer a 20% discount for non-profit organizations.
+
+Q: Can I switch my software license to another PC?
+A: Yes, you can transfer your license to another computer by deactivating it on the current machine and reactivating it on the new one.
+
+Q: Which payment methods can I use to purchase the software?
+A: The company accepts credit cards, debit cards, PayPal, and bank transfers.
+
+Q: Does the software allow for collaborative work?
+A: Yes, the software supports multi-user collaboration with features like shared projects and real-time editing.
+
+Q: Is there a free trial available for the software?
+A: Yes, a 30-day trial version of the software is available on our website.
+
+Q: What are the minimum system requirements to run the software?
+A: The software requires a minimum of 4GB RAM, 2GHz processor, and 10GB free disk space.
+
+Q: Is there a version of the software for mobile devices?
+A: Yes, we have a mobile version of the software available for both iOS and Android.
+
+Q: How can I report a problem with the software?
+A: You can report a bug through the support section on our website or by sending an email to our customer support.
+
+Q: Are there any discounts available for non-profit organizations?
+A: Yes, we offer a 20% discount for non-profit organizations.
+
+Q: Is it possible to transfer my software license to a new computer?
+A: Yes, you can transfer your license to another computer by deactivating it on the current machine and reactivating it on the new one.
+
+Q: What types of payment does the company accept?
+A: The company accepts credit cards, debit cards, PayPal, and bank transfers.
+
+Q: Can the software be used for team collaboration?
+A: Yes, the software supports multi-user collaboration with features like shared projects and real-time editing.
+
+Q: Does the software offer customer support? 
+A: Yes, we have a dedicated customer support team available 24/7 to assist with any issues or queries.
+
+Q: Can I upgrade my software license at any time? 
+A: Yes, you can upgrade your software license at any time through our website.
+
+Q: Is the software available in different languages? 
+A: Yes, the software is available in multiple languages including English, Spanish, French, German, and more.
+
+Q: Does the software require an internet connection? 
+A: The software requires an internet connection for initial setup and periodic updates, but it can run offline for most features.
+
+Q: Is there a user manual or guide for the software? 
+A: Yes, a comprehensive user manual is available on our website and within the software itself.
+
+Q: Can I get a refund if I’m not satisfied with the software? 
+A: Yes, we offer a 30-day money-back guarantee if you are not satisfied with the software.
+
+Q: Does the software have any security features? 
+A: Yes, the software has built-in security features including data encryption and user authentication.
+
+Q: Is there a community forum for the software? 
+A: Yes, we have an active community forum where users can share tips, ask questions, and discuss the software.
+
+Q: Can the software integrate with other applications? 
+A: Yes, the software can integrate with a variety of other applications through APIs.
+
+Q: Does the software offer any automation features? 
+A: Yes, the software includes automation features that can streamline your workflow and increase efficiency.
+
+Q: Is there a cloud-based version of the software? 
+A: Yes, we offer a cloud-based version of the software that allows you to access your work from any device.
+
+Q: Does the software support custom plugins or extensions? 
+A: Yes, the software supports custom plugins and extensions, allowing you to tailor the functionality to your specific needs.
+
+Q: Is there a student discount for the software? 
+A: Yes, we offer a special discount for students with a valid educational institution email address.
+
+Q: Does the software have a dark mode feature? 
+A: Yes, the software includes a dark mode feature that can be enabled in the settings.
+
+Q: Can I export and import data in the software? 
+A: Yes, the software supports data import and export in various formats.
+
+Q: Does the software have keyboard shortcuts for quick navigation? 
+A: Yes, the software includes a variety of keyboard shortcuts for quick navigation and efficient operation.
+
+Q: Is there a roadmap for future updates of the software? 
+A: Yes, we regularly update our roadmap which is available on our website. It outlines planned features and improvements for future versions of the software.
+
+Q: Does the software offer any data visualization tools? 
+A: Yes, the software includes a variety of data visualization tools, allowing you to create charts, graphs, and other visual representations of your data.
+
+Q: Can I customize the user interface of the software? 
+A: Yes, the software allows for user interface customization, enabling you to personalize the look and feel of the software to suit your preferences.
+
+Q: Does the software support touch screen devices? 
+A: Yes, the software is compatible with touch screen devices, offering an intuitive user experience.
+
+
+Q: Does the software provide backup solutions?
+A: Yes, the software includes built-in backup solutions to ensure your data is safe and can be restored if needed.
+
+Q: Can the software handle large datasets?
+A: Yes, the software is optimized to handle large datasets efficiently without compromising performance.
+
+Q: Is there a demo version available for enterprises?
+A: Yes, we offer a demo version specifically for enterprise clients to test the software's features and capabilities.
+
+Q: Can I integrate the software with my existing CRM system?
+A: Yes, the software can be integrated with various CRM systems through available APIs.
+
+Q: Are there any training programs available for new users?
+A: Yes, we offer comprehensive training programs and webinars for new users to get familiar with the software.
+
+Q: Does the software support multi-language input?
+A: Yes, the software supports multi-language input, allowing you to work with text in different languages.
+
+Q: Can I schedule tasks within the software?
+A: Yes, the software includes task scheduling features to help you manage your projects efficiently.
+
+Q: Does the software offer predictive analytics?
+A: Yes, the software includes predictive analytics tools to help you make data-driven decisions.
+
+Q: Is there an offline mode available?
+A: Yes, the software can operate in offline mode, allowing you to work without an internet connection for most features.
+
+Q: Are updates included with the software license?
+A: Yes, all updates are included with your software license at no additional cost.
+
+Q: Can I customize reports generated by the software?
+A: Yes, the software allows you to customize reports to meet your specific needs and preferences.
+
+Q: Does the software support virtual environments?
+A: Yes, the software is compatible with various virtual environments and can be deployed accordingly.
+
+Q: Is the software scalable?
+A: Yes, the software is highly scalable, making it suitable for both small businesses and large enterprises.
+
+Q: Does the software offer a dashboard feature?
+A: Yes, the software includes a customizable dashboard that provides an overview of your data and activities.
+
+Q: Can I automate workflows using the software?
+A: Yes, the software includes workflow automation features to streamline repetitive tasks.
+
+Q: Is technical support available 24/7?
+A: Yes, our technical support team is available 24/7 to assist with any issues or queries.
+
+Q: Does the software support third-party integrations?
+A: Yes, the software supports a wide range of third-party integrations to enhance its functionality.
+
+Q: Can I set up user permissions and roles?
+A: Yes, the software allows you to set up detailed user permissions and roles to manage access control.
+
+Q: Is there an option for cloud storage?
+A: Yes, the software offers cloud storage options for easy access and backup of your data.
+
+Q: Does the software support version control?
+A: Yes, the software includes version control features to manage changes and revisions.
+
+Q: Can the software be used for project management?
+A: Yes, the software includes robust project management features to help you plan, execute, and monitor projects.
+
+Q: Are there analytics tools available within the software?
+A: Yes, the software includes various analytics tools to help you gain insights from your data.
+
+Q: Can I create custom templates within the software?
+A: Yes, the software allows you to create and save custom templates for repeated use.
+
+Q: Does the software have a built-in calendar?
+A: Yes, the software includes a built-in calendar to help you manage appointments and deadlines.
+
+Q: Is there a feedback mechanism for user suggestions?
+A: Yes, the software includes a feedback mechanism for users to submit suggestions and improvements.
+
+Q: Can I sync the software with cloud services like Google Drive or Dropbox?
+A: Yes, the software can sync with popular cloud services such as Google Drive and Dropbox.
+
+Q: Does the software provide audit logs?
+A: Yes, the software includes audit logs to track user activity and changes made within the system.
+
+Q: Can I use the software for customer support management?
+A: Yes, the software includes features for managing customer support, including ticketing and response tracking.
+
+Q: Are there any pre-built templates available?
+A: Yes, the software comes with a variety of pre-built templates to help you get started quickly.
+
+Q: Does the software support automated notifications?
+A: Yes, the software supports automated notifications to keep you informed about important updates and events.
+
+Q: Is there a mobile-friendly interface?
+A: Yes, the software includes a mobile-friendly interface for use on smartphones and tablets.
+
+Q: Can the software generate invoices?
+A: Yes, the software includes features for generating and managing invoices.
+
+Q: Does the software support collaboration tools like chat and video conferencing?
+A: Yes, the software includes built-in collaboration tools such as chat and video conferencing.
+
+Q: Is there an API available for developers?
+A: Yes, the software includes a comprehensive API for developers to create custom integrations and applications.
+
+Q: Can I track time spent on projects using the software?
+A: Yes, the software includes time tracking features to monitor time spent on various projects.
+
+Q: Does the software have a built-in CRM system?
+A: Yes, the software includes a built-in CRM system to manage customer relationships and interactions.
+
+Q: Can I generate custom reports in the software?
+A: Yes, the software allows you to generate custom reports to suit your specific needs.
+
+Q: Is there a trial version for educational institutions?
+A: Yes, we offer a trial version specifically for educational institutions to evaluate the software.
+
+Q: Does the software support data encryption?
+A: Yes, the software includes data encryption to ensure the security and privacy of your information.
+
+Q: Are there video tutorials available?
+A: Yes, we provide video tutorials to help users understand and utilize the software effectively.
+
+Q: Can the software be used for inventory management?
+A: Yes, the software includes features for managing inventory and stock levels.
+
+Q: Does the software support barcode scanning?
+A: Yes, the software is compatible with barcode scanning devices for easy data entry.
+
+Q: Is there a quick start guide for new users?
+A: Yes, a quick start guide is available to help new users get up and running quickly.
+
+Q: Can I import data from other systems?
+A: Yes, the software supports data import from various other systems and formats.
+
+Q: Does the software offer email integration?
+A: Yes, the software includes email integration features to manage communications directly.
+
+Q: Can the software be used for task management?
+A: Yes, the software includes robust task management features to help you organize and track tasks.
+
+Q: Is the software GDPR compliant?
+A: Yes, the software is fully compliant with GDPR regulations to ensure data protection and privacy.
+
+Q: Does the software include a resource management feature?
+A: Yes, the software includes resource management tools to allocate and track resources efficiently.
+
+Q: Are there options for data backup and recovery?
+A: Yes, the software provides options for data backup and recovery to safeguard your information.
+
+Q: Can I create custom dashboards in the software?
+A: Yes, the software allows you to create and customize dashboards to fit your specific needs.
+
+Q: Is there an option for role-based access control?
+A: Yes, the software includes role-based access control to manage user permissions effectively.
+
+Q: Does the software offer any marketing automation features?
+A: Yes, the software includes marketing automation features to streamline your marketing efforts.
+
+Q: Can I use the software to track sales performance?
+A: Yes, the software includes tools for tracking and analyzing sales performance.
+
+Q: Is the software compatible with different operating systems?
+A: Yes, the software is compatible with Windows, macOS, and Linux operating systems.
+
+Q: Does the software support real-time collaboration?
+A: Yes, the software supports real-time collaboration, allowing multiple users to work together simultaneously.
+
+Q: Are there any built-in templates for financial reporting?
+A: Yes, the software includes built-in templates for financial reporting to simplify the process.
+
+Q: Can I use the software for social media management?
+A: Yes, the software includes features for managing social media accounts and scheduling posts.
+
+Q: Does the software provide performance metrics?
+A: Yes, the software provides detailed performance metrics to help you evaluate your processes.
+
+Q: Is there a built-in file management system?
+A: Yes, the software includes a built-in file management system to organize and store documents.
+
+Q: Can I track customer interactions within the software?
+A: Yes, the software allows you to track and manage customer interactions and communications.
+
+Q: Are there any industry-specific versions of the software?
+A: Yes, we offer industry-specific versions tailored to meet the needs of various sectors.
+
+Q: Does the software include email marketing tools?
+A: Yes, the software includes email marketing tools to create and send campaigns.
+
+Q: Can I set up automated reminders in the software?
+A: Yes, the software allows you to set up automated reminders for tasks and deadlines.
+
+Q: Does the software support mobile notifications?
+A: Yes, the software supports mobile notifications to keep you updated on the go.
+
+Q: Is the software capable of handling multi-currency transactions?
+A: Yes, the software supports multi-currency transactions, making it suitable for global use.
+
+Q: Can I access historical data in the software?
+A: Yes, the software allows you to access and analyze historical data for insights and reporting.
+
+Q: Does the software include a search function?
+A: Yes, the software includes a powerful search function to quickly find information.
+
+Q: Can I set goals and track progress in the software?
+A: Yes, the software includes goal-setting and progress-tracking features to help you achieve your objectives.
+
+Q: Is the software available for purchase in different regions?
+A: Yes, the software is available for purchase worldwide, with regional support and pricing.
+
+Q: Does the software offer data export options?
+A: Yes, the software includes various data export options to suit your needs.
+
+Q: Are there customizable user profiles in the software?
+A: Yes, the software allows for customizable user profiles to personalize the user experience.
+
+Q: Does the software include a document management system?
+A: Yes, the software includes a comprehensive document management system for organizing files.
+
+Q: Can I set up automatic updates for the software?
+A: Yes, the software can be configured to receive automatic updates to ensure you have the latest features.
+
+Q: Is there a free version of the software with limited features?
+A: Yes, we offer a free version with limited features for users to try before committing to a paid plan.
+
+Q: Does the software support electronic signatures?
+A: Yes, the software supports electronic signatures for document signing and approval processes.
+
+Q: Are there options for custom branding?
+A: Yes, the software allows for custom branding to match your company's identity.
+
+Q: Can I use the software for budgeting and forecasting?
+A: Yes, the software includes tools for budgeting and forecasting to help with financial planning.
+
+Q: Does the software offer role-specific dashboards?
+A: Yes, the software provides role-specific dashboards to cater to different user needs.
+
+Q: Can the software integrate with payment gateways?
+A: Yes, the software can integrate with various payment gateways for seamless transactions.
+
+Q: Does the software support drag-and-drop functionality?
+A: Yes, the software includes drag-and-drop functionality for easy customization and organization.
+
+Q: Is the software suitable for use in multiple departments?
+A: Yes, the software is versatile and can be used across multiple departments within an organization.
+
+Q: Does the software offer built-in tutorials for new features?
+A: Yes, the software includes built-in tutorials to help users understand new features.
+
+Q: Can I set up recurring tasks in the software?
+A: Yes, the software allows you to set up and manage recurring tasks efficiently.
+
+Q: Are there any mobile-specific features?
+A: Yes, the mobile version of the software includes features optimized for mobile use.
+
+Q: Does the software include a knowledge base?
+A: Yes, the software includes a comprehensive knowledge base for self-help and troubleshooting.
+
+Q: Can I track inventory levels in real-time?
+A: Yes, the software provides real-time tracking of inventory levels to manage stock effectively.
+
+Q: Does the software offer customer satisfaction surveys?
+A: Yes, the software includes tools for creating and managing customer satisfaction surveys.
+
+Q: Can the software be used for event management?
+A: Yes, the software includes features for planning and managing events.
+
+Q: Is there a feature for managing employee timesheets?
+A: Yes, the software includes timesheet management features to track employee hours.
+
+Q: Can I use the software to monitor website analytics?
+A: Yes, the software includes tools for monitoring and analyzing website traffic and performance.
+
+Q: Does the software provide access to API documentation?
+A: Yes, the software includes detailed API documentation for developers.
+
+Q: Is there a feature for managing subscriptions?
+A: Yes, the software includes features for managing and tracking subscriptions.
+
+Q: Can the software generate automated reports?
+A: Yes, the software can generate automated reports based on predefined criteria.
+
+Q: Does the software include a feedback form builder?
+A: Yes, the software includes tools for creating and managing feedback forms.
+
+Q: Is there a feature for monitoring social media mentions?
+A: Yes, the software includes tools for monitoring social media mentions and engagements.
+
+Q: Can I use the software to create landing pages?
+A: Yes, the software includes features for designing and publishing landing pages.
+
+Q: Does the software support multi-factor authentication?
+A: Yes, the software includes multi-factor authentication for enhanced security.
+
+Q: Are there any options for setting up alerts and notifications?
+A: Yes, the software allows you to set up various alerts and notifications to stay informed.
+
+Q: Does the software offer any project tracking tools?
+A: Yes, the software includes robust project tracking tools to monitor progress and milestones.
+
+Q: Can I customize the login page?
+A: Yes, the software allows you to customize the login page to reflect your branding.
+
+Q: Is there an option for archiving old data?
+A: Yes, the software includes options for archiving old data to keep your workspace organized.
+
+Q: Does the software support split-screen mode?
+A: Yes, the software supports split-screen mode for multitasking and enhanced productivity.
+
+Q: Can I use the software for lead management?
+A: Yes, the software includes features for managing leads and tracking their progress.
+
+Q: Are there any built-in analytics dashboards?
+A: Yes, the software includes built-in analytics dashboards to visualize and analyze data.
+
+Q: Does the software provide integration with calendar apps?
+A: Yes, the software integrates with popular calendar apps like Google Calendar and Outlook.
+
+Q: Can I automate customer follow-ups using the software?
+A: Yes, the software includes features for automating customer follow-ups to improve engagement.
+
+Q: What is Microsoft Azure?
+A: Microsoft Azure is a cloud computing platform and service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.
+
+Q: Can I use Azure for machine learning?
+A: Yes, Azure offers services like Azure Machine Learning, which allows you to build, train, and deploy machine learning models.
+
+Q: Is there a free tier available on Azure?
+A: Yes, Azure provides a free tier with limited usage of various services, allowing you to try them out without incurring any costs.
+
+Q: Does Azure support virtual machines?
+A: Yes, Azure provides virtual machine services that allow you to deploy and manage virtual machines running Windows or Linux.
+
+Q: Can I host my website on Azure?
+A: Yes, Azure offers various web hosting services, including Azure App Service, which enables you to host web applications, RESTful APIs, and mobile backends.
+
+Q: Does Azure support containers?
+A: Yes, Azure supports containers through services like Azure Kubernetes Service (AKS) and Azure Container Instances (ACI).
+
+Q: Can Azure be used for big data analytics?
+A: Yes, Azure offers services such as Azure Synapse Analytics, Azure Databricks, and HDInsight for big data processing and analytics.
+
+Q: Is Azure compliant with GDPR?
+A: Yes, Azure provides a comprehensive set of compliance offerings to help customers meet GDPR requirements.
+
+Q: Does Azure offer disaster recovery solutions?
+A: Yes, Azure Site Recovery is a service that ensures business continuity by keeping your applications running during outages.
+
+Q: Can I integrate Azure with my on-premises environment?
+A: Yes, Azure offers various hybrid solutions that enable seamless integration with your on-premises infrastructure.
+
+Q: Is there support for DevOps on Azure?
+A: Yes, Azure DevOps provides a suite of development tools for version control, build automation, release management, and more.
+
+Q: Does Azure support multi-factor authentication?
+A: Yes, Azure Active Directory (Azure AD) supports multi-factor authentication to enhance security.
+
+Q: Can I manage my Azure resources using a mobile app?
+A: Yes, the Azure mobile app allows you to monitor and manage your resources from your mobile device.
+
+Q: Does Azure offer database services?
+A: Yes, Azure provides various database services, including Azure SQL Database, Azure Cosmos DB, and Azure Database for PostgreSQL.
+
+Q: Can I automate tasks in Azure?
+A: Yes, Azure Automation allows you to automate repetitive tasks and orchestrate complex processes.
+
+Q: Is Azure secure?
+A: Yes, Azure is built with a multi-layered security model and includes various features to protect your data and applications.
+
+Q: Can I use Azure for IoT solutions?
+A: Yes, Azure IoT Hub and other related services enable you to build, manage, and analyze IoT solutions.
+
+Q: Does Azure offer CDN services?
+A: Yes, Azure Content Delivery Network (CDN) is available to deliver high-bandwidth content to users worldwide.
+
+Q: Can I use Azure for serverless computing?
+A: Yes, Azure Functions and Azure Logic Apps provide serverless computing options to build and deploy applications without managing infrastructure.
+
+Q: Does Azure provide support for AI and cognitive services?
+A: Yes, Azure offers a range of AI and cognitive services, including Azure Cognitive Services and Azure Machine Learning.
+
+Q: Can I schedule tasks in Azure?
+A: Yes, Azure Scheduler allows you to run jobs on a simple or complex recurring schedule.
+
+Q: Is there a way to monitor my Azure resources?
+A: Yes, Azure Monitor provides comprehensive monitoring and diagnostics for your applications and infrastructure.
+
+Q: Does Azure support blockchain technology?
+A: Yes, Azure Blockchain Service enables the creation, management, and governance of consortium blockchain networks.
+
+Q: Can I use Azure for mobile app development?
+A: Yes, Azure App Service and Azure Mobile Apps allow you to build and host mobile backends.
+
+Q: Does Azure offer content management solutions?
+A: Yes, Azure provides services like Azure Media Services and Azure Search for content management and delivery.
+
+Q: Can I perform backups on Azure?
+A: Yes, Azure Backup provides simple, secure, and cost-effective solutions to back up your data to the cloud.
+
+Q: Is there support for identity management in Azure?
+A: Yes, Azure Active Directory (Azure AD) is a comprehensive identity and access management service.
+
+Q: Can I run SAP on Azure?
+A: Yes, Azure supports SAP applications, including SAP HANA, for enterprise resource planning (ERP) and other business processes.
+
+Q: Does Azure provide a marketplace for third-party applications?
+A: Yes, Azure Marketplace offers thousands of certified, open-source, and community software applications, developer services, and data.
+
+Q: Can I deploy microservices on Azure?
+A: Yes, Azure Kubernetes Service (AKS) and Azure Service Fabric are designed for deploying and managing microservices architectures.
+
+Q: Does Azure support VPN connectivity?
+A: Yes, Azure Virtual Network provides VPN solutions to securely connect on-premises networks to Azure.
+
+Q: Can I use Azure for remote desktop services?
+A: Yes, Azure Virtual Desktop allows you to deploy and scale virtualized Windows desktops and apps.
+
+Q: Is there support for data migration to Azure?
+A: Yes, Azure provides tools like Azure Migrate and Data Migration Assistant to help you move your data and applications to the cloud.
+
+Q: Can I set up automatic scaling on Azure?
+A: Yes, Azure Autoscale allows you to automatically scale your applications based on demand.
+
+Q: Does Azure offer analytics services?
+A: Yes, Azure provides several analytics services, including Azure Synapse Analytics, Azure Data Lake, and Power BI.
+
+Q: Can I use Azure for video streaming?
+A: Yes, Azure Media Services allows you to build scalable and secure video workflows for on-demand and live streaming.
+
+Q: Does Azure provide email services?
+A: Yes, Azure supports email delivery through services like Azure Communication Services and third-party solutions available in Azure Marketplace.
+
+Q: Can I integrate Azure with other Microsoft products?
+A: Yes, Azure seamlessly integrates with other Microsoft products such as Office 365, Dynamics 365, and Power Platform.
+
+Q: Is there a service for API management on Azure?
+A: Yes, Azure API Management helps you publish, secure, transform, maintain, and monitor APIs.
+
+Q: Does Azure support data warehousing?
+A: Yes, Azure Synapse Analytics is a service that provides enterprise data warehousing and big data analytics.
+
+Q: Can I use Azure for edge computing?
+A: Yes, Azure IoT Edge allows you to run AI, analytics, and other workloads on edge devices.
+
+Q: Does Azure offer support for compliance and governance?
+A: Yes, Azure Policy and Azure Blueprints help you manage compliance and governance at scale.
+
+Q: Can I use Azure for gaming solutions?
+A: Yes, Azure PlayFab and Azure Gaming services provide backend solutions for building, launching, and managing games.
+
+Q: Is Azure suitable for high-performance computing (HPC)?
+A: Yes, Azure provides HPC solutions, including Azure Batch and specialized VM sizes for compute-intensive workloads.
+
+Q: Does Azure support data lake storage?
+A: Yes, Azure Data Lake Storage is designed to handle big data analytics workloads.
+
+Q: Can I use Azure for Dev/Test environments?
+A: Yes, Azure provides cost-effective options for setting up development and testing environments.
+
+Q: Does Azure offer any services for blockchain development?
+A: Yes, Azure Blockchain Workbench provides tools to simplify the development of blockchain applications.
+
+Q: Can I manage my Azure resources using command-line tools?
+A: Yes, you can manage Azure resources using the Azure CLI and Azure PowerShell.
+
+Q: Does Azure support hybrid cloud scenarios?
+A: Yes, Azure Arc and Azure Stack enable hybrid cloud scenarios by extending Azure services to your on-premises and multi-cloud environments.
+
+Q: Can I use Azure for monitoring and management of network resources?
+A: Yes, Azure Network Watcher provides tools to monitor, diagnose, and gain insights into your network resources.
+Q: Hello, how can you help me?
+A: Hii, I can help you in anwering question with which I am trained with and also I can help you to ask me the right question.
+
+Q: whats your name?
+A: I am a helping non-generative chatbot who is learning more.
+
+Q: can you answer anything I ask ?
+A: No, I can only answer the questions that I have learned but I can provide you assistance to ask a question.
+
+Q: who are your developers?
+A: Nishant and Abhay
+
+Q: how r u?
+A: i m fine
+
+Q: are you offline?
+A: yes, i am a chatbot who can answer you without the internet
+
+Q: hii
+A: Hello, ask me a question
+
+Q: Are you generative AI?
+A: No
+
+Q: computer network not working?
+A: N/W cable not connected
+
+Q: network cable connected but network not available?
+A: ping other machine
+
+Q: how many maximum questions can you handle? what your maximum limit?
+A: I am super accurate and reliable up to 400 question int he dataset.
+
+Q: How are you build? how are you made?
+A: I am built upon deep learning and NLP
+
+
+
+
+
+
+Q: Are you like chatgpt? Are you similar to Chatgpt?
+A: No, I am not generative AI and also, I am not a large language model
+
+Q: What are you made for? What are you specialized for? what do you know?
+A: I am a FAQ expert bot.
+
+Q: What is the full form of ongc ? 
+A: Oil and Natural Gas Corporation 
+
+Q: Is ongc private?
+A: No, it's under PSU
+
+Q: In what server are you hosted?
+A: I have been developed in flask
+
+Q: What is your favorite color? Your favoeite color?
+A: My favorite color is green
+
