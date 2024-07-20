@@ -1,0 +1,198 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        #login-container {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #dfe1e5;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #login-container h2 {
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        #login-container input {
+            width: calc(100% - 24px);
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #dfe1e5;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        #login-container button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        #login-container button:hover {
+            background-color: #0056b3;
+        }
+
+        #login-container button:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login-container">
+        <h2>Admin Login</h2>
+        <input id="username" type="text" placeholder="Username" autocomplete="off">
+        <input id="password" type="password" placeholder="Password" autocomplete="off">
+        <button onclick="login()">Login</button>
+    </div>
+    <script>
+        const adminUsername = "admin";
+        const adminPassword = "password";  // In a real application, this should be securely handled
+
+        function login() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            if (username === adminUsername && password === adminPassword) {
+                localStorage.setItem("adminLoggedIn", "true");
+                window.location.href = "/admin";
+            } else {
+                alert("Incorrect username or password!");
+            }
+        }
+    </script>
+</body>
+
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <!-- Your CSS styles here -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        #login-container {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #dfe1e5;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #login-container h2 {
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        #login-container input {
+            width: calc(100% - 24px);
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #dfe1e5;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        #login-container button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        #login-container button:hover {
+            background-color: #0056b3;
+        }
+
+        #login-container button:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login-container">
+        <h2>Admin Login</h2>
+        <input id="username" type="text" placeholder="Username" autocomplete="off">
+        <input id="password" type="password" placeholder="Password" autocomplete="off">
+        <button onclick="login()">Login</button>
+        <button onclick="resetCredentials()">Reset Username/Password</button>
+    </div>
+    <script>
+        let adminUsername = localStorage.getItem("adminUsername") || "admin";
+        let adminPassword = localStorage.getItem("adminPassword") || "password";
+
+        function login() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            if (username === adminUsername && password === adminPassword) {
+                localStorage.setItem("adminLoggedIn", "true");
+                window.location.href = "/admin";
+            } else {
+                alert("Incorrect username or password!");
+            }
+        }
+
+
+        function resetCredentials() {
+            adminUsername = prompt("Enter new username:");
+            adminPassword = prompt("Enter new password:");
+            localStorage.setItem("adminUsername", adminUsername);
+            localStorage.setItem("adminPassword", adminPassword);
+            alert("Username and password have been reset. Please log in with the new credentials.");
+        }
+    </script>
+</body>
+
+</html>

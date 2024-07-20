@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFO ASSISTANT</title>
+    <style>
+        :root {
+            --background-color: #f4f7f9;
+            --text-color: #333;
+            --input-background-color: #fff;
+            --input-border-color: #dfe1e5;
+            --button-background-color: #007bff;
+            --button-text-color: white;
+            --user-message-background: #e9f7ef;
+            --bot-message-background: #fce8e6;
+        }
+
+        [data-theme="dark"] {
+            --background-color: #121212;
+            --text-color: #e0e0e0;
+            --input-background-color: #333;
+            --input-border-color: #424242;
+            --button-background-color: #0056b3;
+            --button-text-color: #ddd;
+            --user-message-background: #2c3e50;
+            --bot-message-background: #34495e;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--background-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding-bottom: 60px;
+            color: var(--text-color);
+        }
+
+        #header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        #logo {
+            width: 50px;
+            height: auto;
+        }
+
+        #chatbox {
+            width: 90%;
+            max-width: 600px;
+            margin-top: 40px;
+            padding: 20px;
+            border: 1px solid var(--input-border-color);
+            border-radius: 10px;
+            background: var(--input-background-color);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #chatbox:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        #messages {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        #messages li {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            word-wrap: break-word;
+        }
+
+        #messages li.user {
+            background: var(--user-message-background);
+            border-left: 4px solid #28a745;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        #messages li.bot {
+            background: var(--bot-message-background);
+            border-left: 4px solid #dc3545;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #user_input {
+            width: calc(100% - 70px);
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid var(--input-border-color);
+            border-radius: 5px;
+            outline: none;
+            background: var(--input-background-color);
+            color: var(--text-color);
+            transition: border-color 0.3s ease;
+        }
+
+        #user_input:focus {
+            border-color: var(--button-background-color);
+        }
+
+        button {
+            padding: 10px 15px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+            background-color: var(--button-background-color);
+            color: var(--button-text-color);
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            color: var(--button-text-color);
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+
+        #loading-spinner {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 8px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 8px solid #007bff;
+            width: 60px;
+            height: 60px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--button-background-color);
+        }
+
+        .feedback,
+        .alternatives {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .feedback p,
+        .alternatives p {
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .feedback button,
+        .alternatives button {
+            background-color: var(--button-background-color);
+            color: var(--button-text-color);
+        }
+
+        .alternatives ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .alternatives li {
+            margin-bottom: 5px;
+        }
+
+        #login-button {
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
+        }
+
+        #clear-log-button {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background-color: #dc3545;
+            color: white;
+        }
+
+        #user-manual-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--button-background-color);
+            color: var(--button-text-color);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #user-manual-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="chatbox">
+        <div id="header">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" id="logo">
+            <h2>INFO ASSISTANT</h2>
+        </div>
+        <ul id="messages"></ul>
+        <input id="user_input" type="text" placeholder="Type your message here..." autocomplete="off">
+        <button onclick="sendMessage()">Send</button>
+        <div id="feedback" class="feedback" style="display: none;">
+            <p>Was the answer correct?</p>
+            <button onclick="sendFeedback('no')">No</button>
+        </div>
+        <div id="alternatives" class="alternatives" style="display: none;">
+            <p>Here are some other questions that might help:</p>
+            <ul id="alternative_questions"></ul>
+            <p>If the question is not listed above then try typing the keywords of your question as a prompt to the bot
+            </p>
+            <input id="selected_alternative" type="text" placeholder="Enter question number" autocomplete="off">
+            <button onclick="sendAlternative()">Send</button>
+        </div>
+    </div>
+    <div id="add-container">
+        <button id="login-button" onclick="window.location.href='/login'">Login as Admin</button>
+    </div>
+    <button id="clear-log-button" onclick="clearLog()">Clear Log</button>
+    <button id="user-manual-button" onclick="window.location.href='/manual'">User Manual</button>
+
+    <div id="loading-spinner"></div>
+    <script>
+        let lastUserInput = "";
+
+        document.getElementById("user_input").addEventListener("keypress", function (event) {
+            if (event.key === "Enter") {
+                sendMessage();
+            }
+        });
+        function sendMessage() {
+            const userInput = document.getElementById("user_input").value;
+            if (userInput.trim() !== "") {
+                lastUserInput = userInput;
+                const messageElement = document.createElement("li");
+                messageElement.className = "user";
+                messageElement.appendChild(document.createTextNode(userInput));
+                document.getElementById("messages").appendChild(messageElement);
+                scrollToBottom();
+
+                fetch("/get", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ msg: userInput })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.response) { // Check if there is a response before displaying it
+                            const botMessageElement = document.createElement("li");
+                            botMessageElement.className = "bot";
+                            botMessageElement.appendChild(document.createTextNode(data.response));
+                            document.getElementById("messages").appendChild(botMessageElement);
+                            scrollToBottom();
+                        }
+
+                        if (data.alternatives && data.alternatives.length > 0) {
+                            const alternativesList = document.getElementById("alternative_questions");
+                            alternativesList.innerHTML = "";
+                            data.alternatives.forEach((alt, index) => {
+                                const altElement = document.createElement("li");
+                                altElement.appendChild(document.createTextNode(`${index + 1}. ${alt}`));
+                                alternativesList.appendChild(altElement);
+                            });
+                            document.getElementById("alternatives").style.display = "block";
+                        } else {
+                            document.getElementById("feedback").style.display = "block";
+                        }
+                    });
+
+                document.getElementById("user_input").value = "";
+                document.getElementById("feedback").style.display = "none";
+                document.getElementById("alternatives").style.display = "none";
+            }
+        }
+
+
+        function scrollToBottom() {
+            const messagesContainer = document.getElementById("messages");
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        function sendFeedback(feedback) {
+            fetch("/get", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ msg: lastUserInput, feedback: feedback })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.response) { // Check if there is a response before displaying it
+                        const botMessageElement = document.createElement("li");
+                        botMessageElement.className = "bot";
+                        botMessageElement.appendChild(document.createTextNode(data.response));
+                        document.getElementById("messages").appendChild(botMessageElement);
+                    }
+
+                    if (data.alternatives && data.alternatives.length > 0) {
+                        const alternativesList = document.getElementById("alternative_questions");
+                        alternativesList.innerHTML = "";
+                        data.alternatives.forEach((alt, index) => {
+                            const altElement = document.createElement("li");
+                            altElement.appendChild(document.createTextNode(`${index + 1}. ${alt}`));
+                            alternativesList.appendChild(altElement);
+                        });
+                        document.getElementById("alternatives").style.display = "block";
+                    }
+                });
+        }
+
+        document.getElementById("selected_alternative").addEventListener("keypress", function (event) {
+            if (event.key === "Enter") {
+                sendAlternative();  // Call to send the alternative when Enter is pressed
+            }
+        });
+
+        function sendAlternative() {
+            const selectedAlternative = document.getElementById("selected_alternative").value;
+            fetch("/get", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ msg: lastUserInput, feedback: selectedAlternative })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    const botMessageElement = document.createElement("li");
+                    botMessageElement.className = "bot";
+                    botMessageElement.appendChild(document.createTextNode(data.response));
+                    document.getElementById("messages").appendChild(botMessageElement);
+                    scrollToBottom();  // Ensure the view scrolls to the bottom after adding the response
+                });
+        }
+
+        function scrollToBottom() {
+            const messagesContainer = document.getElementById("messages");
+            messagesContainer.scrollTop = messagesContainer.scrollHeight; // Scroll to the bottom of the chat
+        }
+        function clearLog() {
+            document.getElementById("messages").innerHTML = ""; // Clears chat messages
+            document.getElementById("feedback").style.display = "none"; // Hides feedback section
+            document.getElementById("alternatives").style.display = "none"; // Hides alternatives section
+            const alternativesList = document.getElementById("alternative_questions");
+            alternativesList.innerHTML = ""; // Clears the list of alternative questions
+            document.getElementById("selected_alternative").value = ""; // Clears the input for selected alternative number
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding-bottom: 60px;
+            color: #333;
+        }
+
+        #admin-container {
+            width: 90%;
+            max-width: 600px;
+            margin-top: 40px;
+            padding: 20px;
+            border: 1px solid #dfe1e5;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        h2 {
+            text-align: center;
+            color: #007bff;
+            display: inline-block;
+        }
+
+        #admin-logo {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        #add-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #add-form input {
+            width: calc(100% - 24px);
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #dfe1e5;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        #retrain-button {
+            background-color: #28a745;
+        }
+
+        #loading-spinner {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 8px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 8px solid #007bff;
+            width: 60px;
+            height: 60px;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="admin-container">
+        <h2>Admin Panel <img src="{{ url_for('static', filename='admin_logo.jpg') }}" alt="Logo" id="logo"></h2>
+        <div id="add-container">
+            <button id="add-button" onclick="showAddForm()">Add Q&A</button>
+            <div id="add-form" style="display: none;">
+                <input id="new_question" type="text" placeholder="Enter new question" autocomplete="off">
+                <input id="new_answer" type="text" placeholder="Enter new answer" autocomplete="off">
+                <button onclick="addQA()">Add</button>
+            </div>
+        </div>
+        <button id="retrain-button" onclick="retrainModel()">Retrain Model</button>
+    </div>
+    <div id="loading-spinner"></div>
+    <script>
+        
+        // Check login status immediately when the page loads
+        if (localStorage.getItem("adminLoggedIn") !== "true") {
+            window.location.href = "/login";
+        } else {
+            // Clear login status on page unload, which happens on navigating away
+            window.onbeforeunload = function () {
+                localStorage.removeItem("adminLoggedIn");
+            };
+        }
+
+        function showAddForm() {
+            const addForm = document.getElementById("add-form");
+            addForm.style.display = addForm.style.display === "none" ? "block" : "none";
+        }
+
+        function addQA() {
+            const question = document.getElementById("new_question").value;
+            const answer = document.getElementById("new_answer").value;
+
+            fetch("/add", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ question: question, answer: answer })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    alert(data.status);
+                    document.getElementById("new_question").value = "";
+                    document.getElementById("new_answer").value = "";
+                    document.getElementById("add-form").style.display = "none";
+                });
+        }
+
+        function retrainModel() {
+            const loadingSpinner = document.getElementById("loading-spinner");
+            loadingSpinner.style.display = "block";
+            fetch("/retrain", {
+                method: "POST"
+            })
+                .then(response => response.json())
+                .then(data => {
+                    loadingSpinner.style.display = "none";
+                    alert(data.status);
+                });
+        }
+
+
+    </script>
+
+</body>
+
+</html>
